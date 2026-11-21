@@ -7,6 +7,9 @@ to /output/entry.txt.
 Deterministic: the same fixed text on every run. No network, no randomness,
 no clock, stdlib only. Output is UTF-8, 1-280 Unicode code points, and not
 only white space (see the gate in the competition rules).
+
+The poem itself is 119 characters; the trailing newline is formatting only
+and is not counted in that length.
 """
 
 import os
